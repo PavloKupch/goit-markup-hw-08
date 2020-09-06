@@ -1,0 +1,75 @@
+  
+.visually-hidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+}
+
+body{
+    font-family: "Roboto, Sans Serif";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: $main-color;
+}
+
+// *{
+//     outline: 1px solid rebeccapurple;
+// }
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+
+}
+
+.container, .page-header{
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+
+
+    margin-left: auto;
+    margin-right: auto;
+
+    @include for-size(tablet-portrait){
+        width: 480px;
+    }
+
+    @include for-size(tablet-landscape){
+        width: 768px;
+    }
+
+    @include for-size(desktop){
+        width: 1170px;
+    }
+}
+
+.list{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.indent{
+    padding-bottom: 60px;
+}
+
+.address{
+    font-family: "Roboto, Sans Serif";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: $white-color;
+
+    margin-top: 20px;
+}

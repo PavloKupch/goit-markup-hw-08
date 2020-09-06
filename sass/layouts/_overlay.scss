@@ -1,0 +1,11 @@
+.overlay{
+
+    display: flex;
+    margin: auto;
+
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/head.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}

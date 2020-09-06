@@ -1,0 +1,56 @@
+.advatage{
+    padding-top: 60px;
+
+
+    &-list::before{
+        content: "";
+        display: block;
+        height: 120px;
+        // margin: auto;
+    
+        background-color:#F5F4FA;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 4px;
+    }
+}
+
+.antenna::before{
+    background-image: url(../images/soc.logo/diagram_1.svg);
+}
+
+.clock::before{
+    background-image: url(../images/soc.logo/clock_1.svg);
+}
+
+.diagram::before{
+    background-image: url(../images/soc.logo/antenna_1.svg);
+}
+
+.astronaut::before{
+    background-image: url(../images/soc.logo/astronaut_1.svg);
+}
+
+// .advatage-list{
+//     margin: 0;
+// }
+
+.section-title{
+    font-family: "Roboto, Sans Serif";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $dark-color;
+
+    margin-top: 30px;
+    margin-bottom: 10px; 
+    text-align: center; 
+}
+
+.description{
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 60px;
+}

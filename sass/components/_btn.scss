@@ -1,0 +1,75 @@
+.btn-item, .btn-submit{
+    font-family: "Roboto, Sans Serif";
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+.btn-item{
+    display: flex;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    margin: auto;
+    color: $white-color;
+    padding: 10px 32px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+}
+
+.btn{
+    display: flex;
+    color: $dark-color;
+    background: #F5F4FA;
+    padding: 6px 22px;
+    border-radius: 4px;
+    border: 1px solid #F5F4FA;
+    font-family: "Roboto, Sans Serif";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    transition-property: color, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover, 
+    &:focus{
+        color: $white-color;
+        background-color: $accent-color;
+        border: 1px solid #2196F3;
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    }
+}
+
+
+
+.button:not(:last-child){
+    margin-right: 8px;
+}
+
+.btn-current{
+    background: #2196F3;
+    color: $white-color;
+    border: 1px solid #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.btn-submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    margin: auto;
+    padding: 0;
+    background: #188CE8;
+    color: $white-color;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+}
