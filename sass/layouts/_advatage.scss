@@ -15,7 +15,9 @@
     }
 }
 
-.advantages-list {
+
+
+.advantages {
     @include for-size(tablet-landscape) {
       display: flex;
       flex-wrap: wrap;
@@ -23,6 +25,14 @@
     }
   }
   
+  .advantages-list{
+    @media screen and (max-width: 767px) {
+      text-align: center;
+  
+      &:not(:last-child) {
+        margin-bottom: 30px;
+      }
+    }
 
 .antenna::before{
     background-image: url(../images/soc.logo/diagram_1.svg);
