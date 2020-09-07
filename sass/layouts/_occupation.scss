@@ -1,0 +1,55 @@
+
+.activity{
+ display: none;
+
+
+// @include for-size(desktop) {
+//          display: block;
+//        }
+
+}
+.activity{
+    display: flex;
+    flex-wrap: wrap;
+
+    &-list:not(:last-child){
+        margin-right: 30px;
+    }
+
+}
+
+.activity-text{
+    position: relative;
+}
+
+.text{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.8) 0%, rgba(47, 48, 58, 0.8) 100%);
+}
+
+.title{
+    font-family: "Roboto, Sans Serif";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: $white-color;
+    margin-bottom: 0;
+    margin-top: 0;
+
+    padding: 27px 82px;
+
+    &-main{
+        font-size: 36px;
+        line-height: 1.2;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: $dark-color;
+        margin: 0;
+        margin-bottom: 50px;
+    }
+}

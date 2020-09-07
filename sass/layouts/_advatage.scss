@@ -15,6 +15,15 @@
     }
 }
 
+.advantages-list {
+    @include for-size(tablet-landscape) {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+  }
+  
+
 .antenna::before{
     background-image: url(../images/soc.logo/diagram_1.svg);
 }
