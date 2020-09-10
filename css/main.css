@@ -518,10 +518,6 @@ img {
   fill: currentColor;
 }
 
-.header {
-  display: none;
-}
-
 .page-header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -535,10 +531,19 @@ img {
   border-bottom: 1px solid #ECECEC;
 }
 
+.header {
+  display: none;
+}
+
+.hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
 .hero-title {
   font-family: "Roboto, Sans Serif";
   font-weight: 900;
-  font-size: 44px;
+  font-size: 26px;
   line-height: 1.4;
   letter-spacing: 0.06em;
   text-align: center;
@@ -549,6 +554,8 @@ img {
 }
 
 .overlay {
+  height: auto;
+  max-width: 1600px;
   background-color: rgba(47, 48, 58, 0.8);
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/hero/mobile/hero_480.jpg);
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/mobile/hero_480.jpg);
