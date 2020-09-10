@@ -1,6 +1,5 @@
 .footer{
     background: #2F303A;
-    
 }
 
 .footer-flex{
@@ -8,17 +7,14 @@
 }
 
 .footer-nav{
-    // display: block;
     padding-top: 60px;
 }
 
 .footer-join{
-    // display: block;
     padding-top: 60px;
 }
 
 .footer-follow{
-    // display: block;
     padding-top: 60px;
     padding-bottom: 60px;
 }
@@ -50,7 +46,6 @@
 
     .footer-flex {
         @include for-size(tablet-landscape) {
-            // display: block;
             text-align: center;
             display: flex;
             flex-wrap: wrap;
