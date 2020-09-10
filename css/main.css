@@ -1124,7 +1124,7 @@ img {
   width: 100%;
 }
 
-.team-item:not(:last-child) {
+.team-item {
   margin-bottom: 30px;
 }
 

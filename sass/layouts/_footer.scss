@@ -48,14 +48,14 @@
 }
 
 
-.footer-flex {
-    @include for-size(tablet-landscape) {
-        // display: block;
-        text-align: center;
-        display: flex;
-        flex-wrap: wrap;
+    .footer-flex {
+        @include for-size(tablet-landscape) {
+            // display: block;
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+        }
     }
-  }
 
   
   @media (min-width: 767px){
