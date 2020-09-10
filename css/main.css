@@ -1073,16 +1073,25 @@ img {
 }
 
 .activity {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   display: none;
 }
 
-.activity-list:not(:last-child) {
-  margin-right: 30px;
+@media (min-width: 1200px) {
+  .activity {
+    display: block;
+  }
+}
+
+@media (min-width: 1200px) {
+  .activity-item:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.activity-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .activity-text {
