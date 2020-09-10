@@ -13,7 +13,7 @@ margin-bottom: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 210px;
+    width: 100%;
     height: 90px;
     fill: #AFB1B8;
     border: 1px solid #AFB1B8;
@@ -32,3 +32,42 @@ margin-bottom: 30px;
     border: 1px solid $accent-color;
     }
 }
+
+// .hide{
+//     display: none;
+// }
+
+.companies-list {
+    @include for-size(tablet-landscape) {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+  }
+
+  
+  @media (min-width: 767px){
+    .companies-item{ 
+        width: calc((100% - 60px) / 3);
+    }
+  }
+
+  .companies-list {
+    @include for-size(desktop) {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+  }
+
+  
+  @media (min-width: 1199px){
+    .companies-item{ 
+        width: calc((100% - 150px) / 6);
+    }
+  }
+
+  
+  
+    
+    

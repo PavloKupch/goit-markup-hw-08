@@ -1,7 +1,8 @@
 .team{
     background: #F5F4FA;
-
 }
+
+
 
 // .team-list{
 //     display: flex;
@@ -53,4 +54,32 @@
         margin-bottom: 30px;
         padding-top: 60px;
     }
+
+    .team-list {
+        @include for-size(tablet-landscape) {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+        }
+      }
+    
+      @media (min-width: 767px){
+        .team-item{ 
+            width: calc((100% - 30px) / 2);
+        }
+      }
+
+      .team-list {
+        @include for-size(desktop) {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+        }
+      }
+    
+      @media (min-width: 1199px){
+        .team-item{ 
+            width: calc((100% - 90px) / 4);
+        }
+      }
         

@@ -1,6 +1,6 @@
 
 .activity{
- display: none;
+    
 
 
 // @include for-size(desktop) {
@@ -11,6 +11,7 @@
 .activity{
     display: flex;
     flex-wrap: wrap;
+    display: none;
 
     &-list:not(:last-child){
         margin-right: 30px;
