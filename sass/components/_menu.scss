@@ -23,6 +23,32 @@
     }
 }
 
+.menu-burger{
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
+
+.menu-burger .icon-cross{
+    display: none;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    .menu-burger:hover &,
+    .menu-burger:focus & {
+      fill: $accent-color;
+    }
+}
+
+.menu-burger .is-open .icon-cross{
+    display: block;
+}
+
+.menu-burger .is-open .icon-burger{
+    display: none;
+}
+
+
 
 
 .link{
