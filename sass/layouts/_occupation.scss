@@ -6,7 +6,7 @@
         display: block;
     }
 
-    @media (min-width: 1200px){
+    @media screen and(min-width: 1200px){
         &-item:not(:last-child){ 
             margin-right: 30px;
         }

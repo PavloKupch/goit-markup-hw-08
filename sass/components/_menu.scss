@@ -2,7 +2,6 @@
     display: flex; 
 }
 
-
     .mobile-menu{
         // display: none;
         position: absolute;
@@ -13,9 +12,11 @@
         padding: 20px;
     }
 
-       
-
-
+    @media screen and(max-width: 767px){
+        .menu{ 
+            display: none;
+        }
+      }
 
 .menu-list:not(:last-child){
     margin-right: 50px;

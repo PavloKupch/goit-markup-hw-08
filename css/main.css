@@ -470,6 +470,12 @@ img {
   padding: 20px;
 }
 
+@media screen and (max-width: 767px) {
+  .menu {
+    display: none;
+  }
+}
+
 .menu-list:not(:last-child) {
   margin-right: 50px;
 }
@@ -1115,7 +1121,7 @@ img {
   }
 }
 
-@media (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .activity-item:not(:last-child) {
     margin-right: 30px;
   }
